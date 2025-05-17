@@ -1,0 +1,2 @@
+document.getElementById("h2").innerHTML = "Welcome!";
+document.getElementById("pa").innerHTML = "This page is dedicated for educational purposes, and, well, truth be told, this is an assignment given by our professor. To share a bit about myself as part of this task, and to enlighten people of who I am and what I can contribute to society. This Website is inspired by yours truly, it reflects what I am as a person and projects my inner self onto the world. As you scroll through this website I do hope that you will know me more. Enjoy!";
