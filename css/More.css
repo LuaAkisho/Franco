@@ -1,7 +1,7 @@
-body {
-    background: url("background.png") no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+    body {
+    background: url("background.png") no-repeat center/cover fixed;
+    margin: 0;
+    padding: 0;
     }
 
     header {
@@ -21,17 +21,20 @@ body {
     }
 
     nav {
-        background-color: transparent;
-        backdrop-filter: blur(50px);
-        padding: 10px;
-        text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: transparent;
+    backdrop-filter: blur(50px);
+    padding: 10px;
     }
 
     nav a {
-        margin: 100px;
-        text-decoration: none;
-        color: white;
-        font-weight: bold;
+    margin: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
     }
 
     .content {
@@ -65,15 +68,15 @@ body {
     }
 
     footer {
-        background-color: transparent;
-        backdrop-filter: blur(50px);
-        text-align: center;
-        position: fixed;
-        width: 100%;
-        bottom: 0;
-        padding: 10px;
-        font-size: 1em;
-        color: white;
+    background-color: transparent;
+    backdrop-filter: blur(50px);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 10px;
+    font-size: 1em;
+    color: white;
     }
 
     .me{
@@ -88,3 +91,52 @@ body {
         margin-left: auto;
         margin-right: auto;
     }
+
+    @media (max-width: 768px) {
+    nav a {
+        margin: 10px 15px;
+        display: inline-block;
+        font-size: 0.9em;
+    }
+
+    .content {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    .post h2 {
+        font-size: 1.5em;
+    }
+
+    .post p {
+        font-size: 1.1em;
+    }
+
+    .me {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+
+    @media (max-width: 480px) {
+    header {
+        font-size: 1.8em;
+        padding: 15px;
+    }
+
+    nav a {
+        margin: 5px 10px;
+        font-size: 0.85em;
+    }
+
+    .me {
+        width: 100px;
+        height: 100px;
+    }
+
+    footer {
+        font-size: 0.85em;
+        padding: 8px;
+    }
+}
