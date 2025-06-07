@@ -1,2 +1,3 @@
-document.getElementById("h2").innerHTML = "Welcome!";
-document.getElementById("pa").innerHTML = "This page is dedicated for educational purposes, and, well, truth be told, this is an assignment given by our professor. To share a bit about myself as part of this task, and to enlighten people of who I am and what I can contribute to society. This Website is inspired by yours truly, it reflects what I am as a person and projects my inner self onto the world. As you scroll through this website I do hope that you will know me more. Enjoy!";
+document.getElementById("h2").innerHTML = "Hello! Welcome to my Portfolio";
+document.getElementById("h1").innerHTML = "I'm Brian John Franco";
+document.getElementById("pa").innerHTML = "I'm a junior developer with a passion for building clean, functional, and user-friendly websites!. I enjoy learning new technologies, solving real-world problems, and continuously improving my skills. Whether it's front-end design or back-end logic, I love learning and bringing ideas to life through development. Welcome to my portfolio! Take a look around and feel free to reach out if you'd like to connect!";
